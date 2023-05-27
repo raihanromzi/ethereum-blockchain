@@ -6,7 +6,6 @@ contract MappingVar {
      mapping (string => uint) namaumur;
 
      function tambahData(string memory _nama, uint _umur) public {
-
           namaumur[_nama] = _umur;
      }
 

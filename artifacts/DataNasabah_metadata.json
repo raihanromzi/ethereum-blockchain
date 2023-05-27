@@ -1,0 +1,156 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "rekening",
+						"type": "address"
+					}
+				],
+				"name": "deleteNasabah",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "rekening",
+						"type": "address"
+					}
+				],
+				"name": "getNasabah",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "rekening",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "nama",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "alamat",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "job",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "blockTime",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "blockNumber",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct DataNasabah.Nasabah",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ownerAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "rekening",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_nama",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_alamat",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_job",
+						"type": "string"
+					}
+				],
+				"name": "registerNasabah",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DataNasabah.sol": "DataNasabah"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DataNasabah.sol": {
+			"keccak256": "0xbe945ee164eee7628bd9505c87d2220ebafbe1e703b2c7460b8a1f0ed4c36cf6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e8639cca73be5d950487b9c2f6cafcfae2fa8d4880d0a28d8615fae15f8dc7ea",
+				"dweb:/ipfs/QmPJRfzsaFLeUT6CEuT1KvPzR62z11gkugEbvzdbFxoQvW"
+			]
+		}
+	},
+	"version": 1
+}
